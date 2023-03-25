@@ -1,0 +1,86 @@
+body {
+  min-height: 100vh;
+
+  display: grid;
+  place-items: center;
+  background-image: url("https://i.pinimg.com/originals/f1/dd/d8/f1ddd84e18c0bb2e087ad838d1791c99.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.HeadText {
+  text-transform: uppercase;
+  color:rgb(173, 24, 99);
+  font-size: 6rem;
+  text-shadow: 0.1rem 0.3rem 0.3rem rgb(241, 232, 237);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-select {
+  display: flex;
+  margin: 0 4rem;
+}
+
+select {
+  background: linear-gradient( rgb(173, 24, 99) , rgb(241, 232, 237));
+  margin: 1rem;
+  padding: .8rem 1rem;
+  border: none;
+
+  border-radius: 1rem;
+  font-size: 23px;
+  text-align: center;
+  appearance: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+  text-shadow: 0.1rem 0.1rem 0.25rem rgb(73, 71, 71);
+
+}
+
+select:hover {
+  background: linear-gradient(#c3c1c0,  rgb(173, 24, 99));
+  box-shadow: inset -1px -1px 32px #f7f7f5ae,
+      1px 1px 5px  rgb(173, 24, 99);
+}
+
+select::-webkit-scrollbar {
+  display: none;
+}
+
+select>option {
+  background-color: #c92c82;
+  box-shadow: inset 2px 2px 22px 22px #bb3875;
+}
+
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+}
+
+.Card>div {
+  margin: 1rem;
+  padding: 1rem 1rem;
+  border-radius: 44px;
+  background: linear-gradient(#d143ae, #d82e8b);
+  box-shadow: -1px -1px 32px #b3b3b3ae,
+      1px 1px 5px #ffffff;
+  color: aliceblue;
+  border: none;
+}
+
+.Card>div:hover {
+  background: linear-gradient(#c3c1c0, #c23091);
+  box-shadow: inset -1px -1px 32px #f7f7f5ae,
+      1px 1px 5px #ac14ac;
+
+}
+
+.Card>div>img {
+  height: 5rem;
+  width: 5rem;
+}
+
